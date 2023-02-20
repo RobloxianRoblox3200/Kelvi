@@ -1,6 +1,6 @@
 key
-42Lrp45jyCnIr9ZOjPm0NIPggHySrR8IurWg4ep04zO5WbZpSpcy8B4G2P7nH
+3vfqIKoq7b0GjL30b3RE2dAV2rlkSSwuJMuoK6DbMSEMznTvMa3U9MQuM96Td
 
 get key
 https://raw.githubusercontent.com/RobloxianRoblox3200/Kelvi/main/Get_Key.txt
-https://n.fcd.su/N4k
+https://n.fcd.su/NGC
