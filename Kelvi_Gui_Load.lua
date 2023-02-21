@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local Kelvi = Instance.new("ScreenGui")
 local Forms_Kelvi = Instance.new("Frame")
 local UI_Kelvi = Instance.new("UICorner")
@@ -15,7 +10,7 @@ local I = Instance.new("TextLabel")
 --Properties:
 
 Kelvi.Name = "Kelvi"
-Kelvi.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Kelvi.Parent = game:GetService("CoreGui")
 
 Forms_Kelvi.Name = "Forms_Kelvi"
 Forms_Kelvi.Parent = Kelvi
@@ -95,7 +90,7 @@ I.TextWrapped = true
 
 -- Scripts:
 
-local function ADZKE_fake_script() -- Forms_Kelvi.Script 
+local function ADZKE_fake_script() 
 	local script = Instance.new('Script', Forms_Kelvi)
 
 	Forms_Kelvi = script.Parent
@@ -286,17 +281,10 @@ local function ADZKE_fake_script() -- Forms_Kelvi.Script
 	wait(0.010)
 	UI_Kelvi.CornerRadius = UDim.new(0, 40)
 
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local Void_Gui_Kelvi = Instance.new("ScreenGui")
 local Void_Frame = Instance.new("Frame")
 local Kelvi = Instance.new("TextLabel")
 local Void_UI = Instance.new("UICorner")
-
---Properties:
 
 Void_Gui_Kelvi.Name = "Void_Gui_Kelvi"
 Void_Gui_Kelvi.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -324,9 +312,7 @@ Kelvi.TextWrapped = true
 Void_UI.Name = "Void_UI"
 Void_UI.Parent = Void_Frame
 
--- Scripts:
-
-local function JPMKX_fake_script() -- Void_Frame.Script 
+local function JPMKX_fake_script() 
 	local script = Instance.new('Script', Void_Frame)
 
 	Void_Frame = script.Parent
@@ -369,8 +355,6 @@ local function JPMKX_fake_script() -- Void_Frame.Script
 	
 end
 coroutine.wrap(JPMKX_fake_script)()
-
-	
 	wait(0.010)
 	UI_Kelvi.CornerRadius = UDim.new(0, 42)
 	
@@ -390,6 +374,5 @@ coroutine.wrap(JPMKX_fake_script)()
 	
 	wait(1.20)
 	Forms_Kelvi.Visible = false
-	
 end
 coroutine.wrap(ADZKE_fake_script)()
