@@ -325,31 +325,25 @@ local function JPMKX_fake_script()
 	Void_Frame.Visible = false
 	Kelvi.Visible = false
 	Void_Frame:TweenPosition(UDim2.new(0.5, 0, 0.5, 0))
-	print("it_1")
 	
 	wait(2)
 	Void_Frame.Visible = true
 	Void_Frame:TweenSize(UDim2.new(0, 100, 0, 100))
-	print("it_2")
 	
 	wait(3)
 	Kelvi.Visible = true
-	print("it_3")
 	
 	wait(1)
 	Void_Frame:TweenSize(UDim2.new(0, 100, 0, 31))
 	Kelvi:TweenSize(UDim2.new(0, 100, 0, 31))
 	Kelvi:TweenPosition(UDim2.new(0, 0, 0, 0))
-	print("it_4")
 	
 	wait(1.5)
 	Void_Frame:TweenPosition(UDim2.new(0, 146, 0, -17))
-	print("it_5")
 	
 	wait(1.320)
 	Void_Frame.BackgroundTransparency = 0.260
 	Kelvi.TextTransparency = 0.260
-	print("it_6")
 	
 end
 coroutine.wrap(JPMKX_fake_script)()
