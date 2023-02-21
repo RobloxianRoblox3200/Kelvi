@@ -7,10 +7,8 @@ local L = Instance.new("TextLabel")
 local V = Instance.new("TextLabel")
 local I = Instance.new("TextLabel")
 
---Properties:
-
 Kelvi.Name = "Kelvi"
-Kelvi.Parent = game:GetService("CoreGui")
+Kelvi.Parent = game.CoreGui
 
 Forms_Kelvi.Name = "Forms_Kelvi"
 Forms_Kelvi.Parent = Kelvi
