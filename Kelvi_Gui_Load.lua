@@ -285,7 +285,7 @@ local Kelvi = Instance.new("TextLabel")
 local Void_UI = Instance.new("UICorner")
 
 Void_Gui_Kelvi.Name = "Void_Gui_Kelvi"
-Void_Gui_Kelvi.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Void_Gui_Kelvi.Parent = game.CoreGui
 
 Void_Frame.Name = "Void_Frame"
 Void_Frame.Parent = Void_Gui_Kelvi
