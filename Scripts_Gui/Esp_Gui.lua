@@ -54,7 +54,7 @@ local EspV5 = Instance.new("TextButton")
 local UICornerEspV5 = Instance.new("UICorner")
 
 Gui_Esp_KELVI.Name = "Gui_Esp_KELVI"
-Gui_Esp_KELVI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Gui_Esp_KELVI.Parent = game.CoreGui
 Gui_Esp_KELVI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame_KELVI.Name = "Frame_KELVI"
