@@ -1,5 +1,5 @@
 key
-YJ06rjHowPgqZwIcJV8Y5jWKM29NweyM5ZXz8dwuCHsqvu0vtcb65xnz
+xC2oSmAB9kunqQlZynUAfWD06POYVhTzoznzotWjlA6y4ibDJJK3N6rq
 
 get key
 https://raw.githubusercontent.com/RobloxianRoblox3200/Kelvi/main/Get_Key.txt
